@@ -17,6 +17,7 @@ function generateGreeting() {
                   `Store hours:\n` +
                   `10:00 AM - 10:00 PM\n` +
                   `Mon - Sun`;
+                  
       } else if (greeting === "greeting2") {
         message = `Good day, ${name}!\n` +
                   `Thank you for choosing OWNDAYS!\n` + `\n` + 
