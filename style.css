@@ -27,6 +27,13 @@ body {
   
   textarea {
     resize: vertical, horizontal; 
-      height: 250px; 
+      height: 300px; 
       width: 300px;
   }
+  
+  
+  
+  .radio-buttons input{
+    text-align: left;
+    display:inline;
+}

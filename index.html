@@ -2,14 +2,15 @@
 <html>
 <head>
   <title>Customer Spiel SMS</title>
-  <!-- <link rel="stylesheet" href="style.css"> -->
+	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="https://cdn.simplecss.org/simple.css">
+	
 </head>
 <body>
   <h1>Messaging App</h1>
   <input type="text" id="nameInput" placeholder="Enter your name">
 
-	<div class="radio-buttons">
+	<div class="radio-buttons" >
 		<input type="radio" id="greeting1" name="greeting" value="for-pick-up" checked>
 		<label for="greeting1">Ready for Pick Up</label>
 
@@ -19,6 +20,9 @@
 
 		<input type="radio" id="greeting3" name="greeting" value="unclaimed">
 		<label for="greeting3">Unclaimed (>60 days)</label>
+		
+		<input type="radio" id="greeting4" name="greeting" value="delayed">
+		<label for="greeting4">Delayed</label>
 	</div>
 
   <button onclick="generateGreeting()">GENERATE TEXT MESSAGE</button>
