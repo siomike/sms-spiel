@@ -31,6 +31,8 @@ function generateGreeting() {
   
   const boilerPlateItems = `<qty, item/s>` 
   
+  const plannerDelayMsg = ``
+  
   if (name) {
     let message = "";
 
