@@ -18,7 +18,7 @@ function generateGreeting() {
   const unclaimedReminders = `Please be reminded on our storage period below: \n\n1) Purchased items will be held by respective OWNDAYS branch for a maximum of 60 days from DATE OF PICK-UP/PURCHASE;\n\n2) After 60 days, purchased items will be sent to our Head Office c/o Operations for safekeeping for another 30 days.\n\n`;
   const unclaimedDisregardMsg = `If you have already collected your items, please disregard this message. Thank you.`;
   const boilerPlateItems = `<qty, item/s>`;
-  const plannerDelayMsg = `We're glad to inform you that your OWNDAYS Planner is now ready for pick up here at Robinsons Place Antipolo.`;
+  const plannerDelayMsg = `We're glad to inform you that your OWNDAYS Planner is now ready for pick up here at OWNDAYS Robinsons Place Antipolo.`;
   const sayGratitudeMsg = `Thank you for your patience and kind understanding for the delay in receiving your item.`;
 
   if (name && greetingRadio) {
